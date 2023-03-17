@@ -27,6 +27,7 @@
 	}
 	*/
 	
+	/*
 	echo '<span style="padding-left: 12px;"></span>| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |', "<br>";
 	for($i=1; $i<14; $i++){
 		echo $i, " | ";
@@ -34,4 +35,13 @@
 			echo $i*$j, " , ";
 		}
 		echo "<br>";
+	}
+	*/
+	
+	//début tableau html
+	echo "<table border='1'>";
+	
+	//première ligne
+	for($t=1; $t<11; $t++){
+		echo "<th>", $t;
 	}
