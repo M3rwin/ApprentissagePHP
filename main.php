@@ -27,16 +27,11 @@
 	}
 	*/
 	
-	$matrice = array(
-    array(1, 2, 3),
-    array(4, 5, 6),
-    array(7, 8, 9)
-);
-
-// Affichage de la matrice
-foreach ($matrice as $row) {
-    foreach ($row as $value) {
-        echo $value . " ";
-    }
-    echo "<br>";
-}
+	echo '<span style="padding-left: 12px;"></span>| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |', "<br>";
+	for($i=1; $i<14; $i++){
+		echo $i, " | ";
+		for($j=1; $j<11; $j++){
+			echo $i*$j, " , ";
+		}
+		echo "<br>";
+	}
