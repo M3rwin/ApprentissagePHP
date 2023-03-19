@@ -42,6 +42,16 @@
 	echo "<table border='1'>";
 	
 	//première ligne
+	echo "<td><b>", 0, "</b>";
 	for($t=1; $t<11; $t++){
-		echo "<th>", $t;
+		echo "<td><b>", $t, "</b>";
+	}
+
+
+	//remplissage du tableau
+	for($i=1; $i<11; $i++){
+		echo "<tr><td><b>", $i, "</b>";
+		for($j=1; $j<11; $j++){
+			echo "<td>", $i*$j;
+		}
 	}
