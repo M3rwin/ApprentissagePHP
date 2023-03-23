@@ -42,16 +42,18 @@
 	echo "<table border='1'>";
 	
 	//première ligne
-	echo "<td><b>", 0, "</b>";
-	for($t=1; $t<11; $t++){
-		echo "<td><b>", $t, "</b>";
+	echo "<td id=\"zero\"><b>", "X", "</b>";
+	for($t=1; $t<14; $t++){
+		echo "<td class=\"rouge\"><b>", $t, "</b></td>";
 	}
 
 
 	//remplissage du tableau
 	for($i=1; $i<11; $i++){
-		echo "<tr><td><b>", $i, "</b>";
-		for($j=1; $j<11; $j++){
-			echo "<td>", $i*$j;
+		echo "<tr><td class=\"rouge\"><b>", $i, "</b></td>";
+		for($j=1; $j<14; $j++){
+			echo "<td class=\"bleue\">", $i*$j, "</td>";
 		}
 	}
+
+	echo "</tr>";

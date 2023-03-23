@@ -1,0 +1,40 @@
+.rouge {
+    background-color: red;
+    width: auto;
+}
+
+.bleue {
+    background-color: blue;
+    width: 35px;
+}
+
+#zero {
+    background-color: greenyellow;
+}
+
+table {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#multiplication {
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+#titre {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(47, 45, 45);
+    color: rgb(189, 192, 195);
+    width: 99%;
+    text-align: center;
+    bottom: 0;
+    padding: 10px;
+}
